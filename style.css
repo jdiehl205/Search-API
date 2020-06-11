@@ -44,6 +44,15 @@ ul li, h4 li {
   left: -40px;
 }
 
+@media (min-width: 366px) {
+  #bar {
+    padding-left: 25px;
+  }
+  #bar h1 {
+    padding-right: 25px;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 424px) {
   #bar {
     padding-left: 30px;
