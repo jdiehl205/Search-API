@@ -9,9 +9,6 @@ let search = document.querySelector("input"),
     style.setAttribute('rel', 'stylesheet');
     style.setAttribute('href', 'style2.css');
 
-    previous.style.display = "none";
-    next.style.display = "none";
-
 search.addEventListener("keyup", async (e) => {
     if(e.keyCode == 13){
         try {
