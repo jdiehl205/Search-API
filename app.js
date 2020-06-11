@@ -2,9 +2,7 @@ let search = document.querySelector("input"),
     div = document.querySelectorAll("div")[1],
     a = document.querySelector(".again"),
     title = document.querySelector("h1"),
-    link = document.querySelector("link"),
-    previous = document.querySelector(".previous"),
-    next = document.querySelector(".next");
+    link = document.querySelector("link");
 
     let style = document.createElement("link");
 
@@ -66,8 +64,6 @@ function styles(){
     search.style.display = "none";
     div.style.display = "block";
     title.style.display = "none";
-    previous.style.display = "block";
-    next.style.display = "block";
     if(document.head.contains(link)){
         document.head.replaceChild(style, link);
     }
@@ -80,8 +76,6 @@ a.addEventListener("click", () => {
     div.style.display = "none";
     search.style.display = "block";
     title.style.display = "block";
-    previous.style.display = "none";
-    next.style.display = "none";
     if(document.head.contains(style)){
         document.head.replaceChild(link, style);
     }
