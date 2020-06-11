@@ -44,7 +44,7 @@ ul li, h4 li {
   left: -40px;
 }
 
-@media (min-width: 366px) {
+@media (min-width: 360px) {
   #bar {
     padding-left: 25px;
   }
