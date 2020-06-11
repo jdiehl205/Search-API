@@ -1,0 +1,66 @@
+body {
+  background-color: #430d27;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-color: #071a52;
+  color: #17b978;
+  font-size: 40px;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 390px;
+}
+
+.anime-list {
+  margin: 5% 0 0 0;
+  color: #f85959;
+}
+
+.anime-list img {
+  width: 150px;
+  margin-left: 10px;
+  height: 150px;
+}
+
+.anime-list a {
+  display: block;
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+  color: #17b978;
+  font-size: 20px;
+}
+
+.anime-list .anime {
+  padding: 0 0 30px 0;
+}
+
+.anime-list p {
+  text-align: left;
+  font-size: 15px;
+  padding: 0 10px 0 10px;
+}
+
+.anime-list ul {
+  padding-left: 10px;
+}
+
+.anime-list li {
+  list-style: none;
+}
+
+.anime-list button {
+  display: block;
+  margin: 20px 0 0 0;
+  margin-left: 10px;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #00d1ff;
+}
+/*# sourceMappingURL=style2.css.map */
