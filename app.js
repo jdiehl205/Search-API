@@ -35,7 +35,9 @@ function filter(anime){
             return data;
         }
     });
-    getHtml(matches[0]);
+    if(matches.length > 0){
+        getHtml(matches[0]);
+    }
 }
 
 function getHtml(matched){
