@@ -43,12 +43,6 @@ h1 {
   margin-left: 10px;
 }
 
-.anime-list p {
-  text-align: left;
-  font-size: 15px;
-  padding: 0 10px 0 10px;
-}
-
 .anime-list ul {
   padding-left: 10px;
 }
@@ -74,7 +68,7 @@ a {
 /* Responsive */
 @media (min-width: 360px) {
   .anime-list {
-    margin-left: 5%;
+    margin-left: 5.5%;
   }
   .anime-list img {
     width: 300px;
@@ -107,7 +101,7 @@ a {
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .anime-list img {
     width: 450px;
     height: 450px;
@@ -137,7 +131,7 @@ a {
   }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
   .anime-list {
     margin-left: 11%;
   }
@@ -197,5 +191,4 @@ a {
     margin-left: 34%;
   }
 }
-/*# sourceMappingURL=style2.css.map */
 /*# sourceMappingURL=style2.css.map */
