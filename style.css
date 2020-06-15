@@ -47,6 +47,8 @@ ul li, h4 li {
 
 @media (min-width: 360px) {
   #bar {
+    position: relative;
+    top: -5%;
     padding-left: 25px;
   }
   #bar h1 {
@@ -140,7 +142,7 @@ ul li, h4 li {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1020px) {
   #bar {
     position: relative;
     top: -60%;
@@ -155,9 +157,30 @@ ul li, h4 li {
   #bar {
     position: relative;
     left: 20%;
+    top: -90%;
   }
   #bar h1 {
     padding-right: 600px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #bar {
+    position: relative;
+    top: -90%;
+  }
+  #bar h1 {
+    padding-right: 720px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #bar {
+    position: relative;
+    top: -100%;
+  }
+  #bar h1 {
+    padding-right: 770px;
   }
 }
 
@@ -179,7 +202,7 @@ ul li, h4 li {
   #bar {
     position: relative;
     left: 24%;
-    top: 40%;
+    top: 30%;
     padding-top: 0;
   }
   #bar h1 {
