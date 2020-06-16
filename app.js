@@ -1,8 +1,9 @@
 let search = document.querySelector("input"),
-    div = document.querySelectorAll("div")[1],
+    div = document.querySelectorAll("div")[2],
     a = document.querySelector(".again"),
     title = document.querySelector("h1"),
     link = document.querySelector("link");
+    message = document.querySelector(".message");
 
     let style = document.createElement("link");
 
@@ -37,6 +38,8 @@ function filter(anime){
     });
     if(matches.length > 0){
         getHtml(matches[0]);
+    }else if(matches.length == 0){
+        message.textContent = `Could Not Find ${search.value} Please Try Something else`;
     }
 }
 
@@ -63,6 +66,8 @@ function styles(){
     search.style.display = "none";
     div.style.display = "block";
     title.style.display = "none";
+    message.style.display = "none";
+    message.textContent = null;
     if(document.head.contains(link)){
         document.head.replaceChild(style, link);
     }
@@ -75,6 +80,7 @@ a.addEventListener("click", () => {
     div.style.display = "none";
     search.style.display = "block";
     title.style.display = "block";
+    message.style.display = "block";
     if(document.head.contains(style)){
         document.head.replaceChild(link, style);
     }
